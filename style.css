@@ -8,7 +8,7 @@
     margin: 1em;
     border-radius: 20px;
     padding: 2em;
-    background: #A25B10;
+    background: #A25B9B;
     display: flex;
 }
 
@@ -17,3 +17,30 @@
     color: azure;
 }
 
+footer{
+    display: flex;
+    margin: 0 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-container{
+    display: flex;
+}
+
+.icon-facebook{
+    background: url(./assets/facebook.png) no-repeat top left ;
+    background-size: 32px;
+}
+
+.icon-youtube{
+    background: url(./assets/youtube.png) no-repeat top left ;
+    background-size: 32px;
+}
+
+.icon-accessibility{
+    display: block;
+    width: 32px; 
+    height: 32px;
+    background-position: 0 0;
+}
